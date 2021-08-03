@@ -4,6 +4,9 @@ const DataController = require('../Controllers/DataController');
 const UsersController = require('../Controllers/UserController');
 
 
-exports.getRoute = router.get('/getAllSurveys',DataController.getData);
-exports.getUser = router.get('/getuser/:id/:pass',UsersController.getUser);
+router.get('/getAllSurveys',DataController.getData);
+router.get('/getuser/:id/:pass',UsersController.getUser);
+router.get('/createuser/:name/:pass',UsersController.createuser);
+
+module.exports = router;
 

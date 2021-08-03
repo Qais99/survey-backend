@@ -4,7 +4,7 @@ const app = express();
 
 const test = require('./routes/test')
 
-app.use(test.getRoute);
+app.use(test);
 
 
 app.listen(3000);
