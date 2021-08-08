@@ -445,7 +445,7 @@
        "SRV_ID":8955,
        "SystemType":3,
        "SURVEY_STATUS_AR":"منتهية",
-       "SURVEY_STATUS_EN":"Expired",
+       "SURVEY_STATUS_EN":"Closed",
        "SurveyPeriods":[{"ID":23272,"START_DATE":"2021-04-19T00:00:00","END_DATE":"2021-06-29T00:00:00"}]
     },
     {
@@ -921,7 +921,7 @@
        "SRV_ID":7573,
        "SystemType":3,
        "SURVEY_STATUS_AR":"منتهية",
-       "SURVEY_STATUS_EN":"Closed",
+       "SURVEY_STATUS_EN":"Expired",
        "SurveyPeriods":[{"ID":5678,"START_DATE":"2020-04-06T00:00:00","END_DATE":"2020-10-29T00:00:00"}]
     },
     {
